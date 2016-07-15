@@ -1,4 +1,4 @@
-## This R script demonstrates how to run a simple web service published in the
+## This script demonstrates how to connect to a simple web service published in the
 ## biovel biodiversity catalogue using R.
 ##
 ## The webservice (NeXMLExtractor https://www.biodiversitycatalogue.org/rest_methods/222)
