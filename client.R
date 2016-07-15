@@ -43,7 +43,7 @@ write(fasta.str, file=temp)
 data <- read.phyDat(temp, format=dataformat)
 
 ## make a simple Neighbor-joining tree and root as outgroup, plot tree
-dm <- dist.ml(aln)
+dm <- dist.ml(data)
 tree <- NJ(dm)
 tree <- root(tree, "Grifola sordulenta", resolve.root=T)
 plot(tree)
